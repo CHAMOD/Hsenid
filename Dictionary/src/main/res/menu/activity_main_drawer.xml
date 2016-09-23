@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first_layout"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_second_layout"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Middle location" />
+        <item
+            android:id="@+id/nav_third_layout"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Vehicle" />
+        <item
+            android:id="@+id/nav_fourth_layout"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Selected vehicle" />
+        <item
+            android:id="@+id/nav_fifth_layout"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Selected package" />
+
+
+    </group>
+
+
+</menu>

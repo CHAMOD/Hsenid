@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#3d6444">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:background="#ffffff"
+        android:text="a"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_marginBottom="30dp"
+        android:background="#ffffff"
+        android:layout_above="@+id/editText"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:layout_above="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_marginBottom="26dp"
+        android:background="#ffffff" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText4"
+        android:layout_above="@+id/editText3"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_marginBottom="41dp"
+        android:background="#ffffff" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText5"
+        android:layout_above="@+id/editText4"
+        android:layout_alignStart="@+id/editText4"
+        android:layout_marginBottom="27dp"
+        android:layout_alignParentEnd="true"
+        android:background="#ffffff"
+        android:text="a" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText6"
+        android:layout_above="@+id/editText5"
+        android:layout_alignStart="@+id/editText5"
+        android:layout_marginBottom="27dp"
+        android:layout_alignParentEnd="true"
+        android:background="#ffffff" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText7"
+        android:layout_above="@+id/editText6"
+        android:layout_alignStart="@+id/editText6"
+        android:layout_marginBottom="27dp"
+        android:layout_alignParentEnd="true"
+        android:background="#ffffff" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText8"
+        android:layout_above="@+id/editText7"
+        android:layout_alignStart="@+id/editText7"
+        android:layout_marginBottom="27dp"
+        android:layout_alignParentEnd="true"
+        android:background="#ffffff" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText9"
+        android:layout_above="@+id/editText8"
+        android:layout_alignStart="@+id/editText8"
+        android:layout_marginBottom="27dp"
+        android:layout_alignParentEnd="true"
+        android:background="#ffffff" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText10"
+        android:layout_above="@+id/editText9"
+        android:layout_alignStart="@+id/editText9"
+        android:layout_marginBottom="27dp"
+        android:layout_alignParentEnd="true"
+        android:background="#ffffff" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText11"
+        android:layout_above="@+id/editText10"
+        android:layout_alignStart="@+id/editText10"
+        android:layout_marginBottom="27dp"
+        android:layout_alignParentEnd="true"
+        android:background="#ffffff" />
+
+
+
+</RelativeLayout>

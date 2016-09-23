@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Vehicle"
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Type"
+        android:id="@+id/textView10"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true">
+
+        <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Van"
+        android:id="@+id/van"
+        android:checked="false"
+        android:layout_above="@+id/textView11"
+        android:layout_toEndOf="@+id/car"
+        android:layout_gravity="center_horizontal" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Car"
+            android:id="@+id/car"
+            android:checked="false"
+            android:layout_above="@+id/textView11"
+            android:layout_toEndOf="@+id/textView10"
+            android:layout_gravity="center_horizontal" />
+
+        <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Three weel"
+        android:id="@+id/threewheel"
+        android:checked="false"
+        android:layout_alignBaseline="@+id/textView10"
+        android:layout_alignBottom="@+id/textView10"
+        android:layout_toEndOf="@+id/checkBox2"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="A/C or Non A/C"
+            android:id="@+id/textView11"
+            android:layout_marginTop="43dp"
+            android:layout_below="@+id/radioButton"
+            android:layout_alignParentStart="true" />
+
+        <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Non A/C"
+                android:id="@+id/radioButton5"
+                android:checked="false"
+                android:layout_alignTop="@+id/ac"
+                android:layout_toEndOf="@+id/radioButton3"
+                android:layout_gravity="center_horizontal" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A/C"
+                android:id="@+id/ac"
+                android:checked="false"
+                android:onClick="selvehicle"
+                android:layout_alignTop="@+id/textView11"
+                android:layout_centerHorizontal="true" />
+        </RadioGroup>
+
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Available vehicles"
+        android:id="@+id/textView12"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SUBMIT"
+        android:id="@+id/button6"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/ac" />
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/spinner"
+
+        android:layout_alignEnd="@+id/radioButton5"
+        android:layout_below="@+id/textView12" />
+
+</RelativeLayout>
